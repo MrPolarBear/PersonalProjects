@@ -44,13 +44,13 @@ int main(){
 
 	if(answer== "n" || answer =="N")
 	{
-		cout << endl << "You have selected no, peace homie.";
+		cout << endl << "You have selected no, peace homie." << endl;
 		return 0;
 	}
 	else
 	{
 		cout << "Well you done goofed up and hit something besides y/n." << endl
-		<< "Since you did that, the program will now close.";
+		<< "Since you did that, the program will now close." << endl;
 		return 0;
 	}
 	
